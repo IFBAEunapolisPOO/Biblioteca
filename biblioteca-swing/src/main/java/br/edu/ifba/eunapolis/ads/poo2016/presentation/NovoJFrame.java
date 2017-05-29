@@ -395,7 +395,7 @@ public class NovoJFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void cmbTipoItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbTipoItemActionPerformed
-        //Selecione , Apostila, Livro, Áudio Visual
+        //Selecione , Apostila, Livro, Audio Visual
         configurarVisibilidadeTipoItem();
 
         if (TiposItemEmprestavel.Apostila.equals(cmbTipoItem.getSelectedItem())) {
