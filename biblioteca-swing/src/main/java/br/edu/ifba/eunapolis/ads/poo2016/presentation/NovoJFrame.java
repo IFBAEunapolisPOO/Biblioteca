@@ -250,7 +250,7 @@ public class NovoJFrame extends javax.swing.JFrame {
             }
         });
 
-        lblMatricula.setText("Matrícula");
+        lblMatricula.setText("MatrÃ­cula");
 
         lblSiape.setText("SIAPE");
 
@@ -462,11 +462,11 @@ public class NovoJFrame extends javax.swing.JFrame {
     private void btnEmprestarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmprestarActionPerformed
         try {
             if(getItemEmpretavelSelecionado() == null){
-                JOptionPane.showMessageDialog(rootPane, "Selecione o Item ", "Validação", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(rootPane, "Selecione o Item ", "ValidaÃ§Ã£o", JOptionPane.WARNING_MESSAGE);
                 return;
             }
             if(getUsuarioSelecionado() == null){
-                JOptionPane.showMessageDialog(rootPane, "Selecione o usuario", "Validação", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(rootPane, "Selecione o usuario", "ValidaÃ§Ã£o", JOptionPane.WARNING_MESSAGE);
                 return;
             }
             biblioteca.emprestar(getItemEmpretavelSelecionado(), getUsuarioSelecionado());
